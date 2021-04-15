@@ -16,4 +16,6 @@ The **documents** include:
 
 [The way of multimedia research](./The way of multimedia research.md) : **Technical stack** in video streaming.
 
+[aaa](https://blog.csdn.net/zyz00000000/article/details/82530741)
+
 The repository is being updated.
