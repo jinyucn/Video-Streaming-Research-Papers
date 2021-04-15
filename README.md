@@ -4,7 +4,7 @@ I am a graduate student working hard on video streaming and video analysis (proc
 
 The **documents** include:
 
-[Repository of papers](https://github.com/jinyucn/Video-Streaming-Research/blob/main/Repository of papers.md) : Some **papers** about video delivery and processing.
+[Repository of papers](https://github.com/jinyucn/Video-Streaming-Research/blob/main/Repository%20of%20papers.md) : Some **papers** about video delivery and processing.
 
 [Paper Weekly](https://github.com/jinyucn/Video-Streaming-Research/blob/main/Paper Weekly.md) : The **summarization of papers** read every week.
 
@@ -17,3 +17,6 @@ The **documents** include:
 [The way of multimedia research](https://github.com/jinyucn/Video-Streaming-Research/blob/main/The way of multimedia research.md): **Technical stack** in video streaming.
 
 The repository is being updated.
+
+
+
