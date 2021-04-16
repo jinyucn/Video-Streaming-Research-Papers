@@ -6,7 +6,7 @@ The **documents** include:
 
 [Repository of papers](https://github.com/jinyucn/Video-Streaming-Research/blob/main/Repository%20of%20papers.md) : Some **papers** about video delivery and processing (paper list).
 
-[Conference Paper](https://github.com/jinyucn/Video-Streaming-Research-Papers/blob/main/Conference%20Paper.md): Papers indexed by conference.
+[Conference Paper](https://github.com/jinyucn/Video-Streaming-Research-Papers/blob/main/Conference%20Paper.md): Papers indexed by **conference**.
 
 [Paper Weekly](https://github.com/jinyucn/Video-Streaming-Research/blob/main/Paper%20Weekly.md) : The **summarization of papers** read every week.
 
@@ -20,7 +20,7 @@ The **documents** include:
 
 The repository is being updated.
 
-Drop an email to [email](jychencs@gmail.com) freely if you have any questions or want to have an in-depth communication about multimedia research.
+Drop an **email** to [email link](jychencs@gmail.com) freely if you have any questions or want to have an in-depth communication about multimedia research.
 
 
 
