@@ -26,7 +26,7 @@ Phil K Mu, Jinkai Zheng, Tom H. Luan and Lina Zhu (Xidian University, China); Mi
 
 Syuan-Cheng Chen, Chi-Yu Li and Chui-Hao Chiu (National Chiao Tung University, Taiwan)
 
-+ **Popularity-Aware 360-Degree Video Streaming **
++ **Popularity-Aware 360-Degree Video Streaming**
 
 Xianda Chen, Tianxiang Tan and Guohong Cao (The Pennsylvania State University, USA)
 
