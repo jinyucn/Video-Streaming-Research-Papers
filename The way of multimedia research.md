@@ -29,5 +29,5 @@ Additional skills:
 
 
 
-It seems it is really hard to conquer the field of multimedia. However, you only need to be expert at one field and learn some basic knowledge of other fields. Multimedia application has penetrated into every aspect of our life, such as video entertainment, video conferencing, and video analysis with some computer vision algorithms. If you are a multimedia expert, you can create many amazing and valuable applications. Last but not least, interest is the most important thing.
+It seems it is really hard to conquer the field of multimedia. However, you only need to be expert at one field and learn some basic knowledge in other fields. Multimedia application has penetrated into every aspect of our life, such as video entertainment, video conferencing, and video analysis with some computer vision algorithms. If you are a multimedia expert, you can create many amazing and valuable applications. Last but not least, interest is the most important thing.
 

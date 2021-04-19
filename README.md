@@ -20,7 +20,7 @@ The **documents** include:
 
 The repository is being updated.
 
-Drop an **email** to [email link](jychencs@gmail.com) freely if you have any questions or want to have an in-depth communication about multimedia research.
+Drop an **email** to [jychencs AT gmail DOT com] freely if you have any questions or want to have an in-depth communication about multimedia research.
 
 
 
