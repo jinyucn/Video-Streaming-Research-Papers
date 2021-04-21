@@ -71,7 +71,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 
 ## 360-degree video
 
-see [360-degree video papers]()
+see [360-degree video papers](https://github.com/jinyucn/Video-Streaming-Research-Papers/blob/main/360-degree%20video%20papers.md)
 
 ## Virtual Reality
 
@@ -94,8 +94,14 @@ Papers about augmented reality deals with the inference of video analysis.
 ## Video Analysis
 
 + [PECAM: Privacy-Enhanced Video Streaming and Analytics via Securely-Reversible Transformation](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf) [Mobicom 21]
-
 + [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://arxiv.org/abs/2012.10557) [arxiv 20]
++ [Decomposable Intelligence on Cloud-Edge IoT Framework for Live Video Analytics](https://ieeexplore.ieee.org/document/9099311/) [IOTJ 20]
++ [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](http://web.cs.ucla.edu/~ravi/publications/reducto_sigcomm20.pdf) [Sigcom 20]
++ [Server-Driven Video Streaming for Deep Learning Inference](https://people.cs.uchicago.edu/~junchenj/docs/DDS-Sigcomm20.pdf) [Sigcom 20]
++ [SPINN: Synergistic Progressive Inference of Neural Networks over Device and Clouds](https://arxiv.org/abs/2008.06402) [Mobicom 20]
++ [Chameleon: Scalable adaptation of video analytics](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf) [Sigcomm 18]
++ [Noscope: Optimizing neural network queries over video at scale](https://www.vldb.org/pvldb/vol10/p1586-kang.pdf) [VLDB 17]
++ [Live video analytics at scale with approximation and delay-tolerance](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang) [NSDI 17]
 
 model training system:
 
