@@ -32,8 +32,22 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [BOLA: Near-optimal bitrate adaptation for online videos](https://arxiv.org/pdf/1601.06748.pdf) [Infocom 16]
 + [mDASH: A Markov Decision-Based Rate Adaptation Approach for Dynamic HTTP Streaming](https://ieeexplore.ieee.org/iel7/6046/4456689/07393865.pdf) [TMM 16]
 + [A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf) [Sigcomm 15] [MPC]
-+ [A Buffer-Based Approach to Rate Adaptation: Evidence from a Large Video Streaming Service](https://web.stanford.edu/class/cs244/papers/sigcomm2014-video.pdf) [Sigcomm 15] [Buffer-Based]
++ [A Buffer-Based Approach to Rate Adaptation: Evidence from a Large Video Streaming Service](https://web.stanford.edu/class/cs244/papers/sigcomm2014-video.pdf) [Sigcomm 14] [Buffer-Based]
 + [A Control-Theoretic Approach to Rate Adaption for DASH Over Multiple Content Distribution Servers](https://ieeexplore.ieee.org/document/6662391) [TCSVT 14]
++ [Improving fairness, efficiency, and stability in HTTP-based adaptive video streaming with FESTIVE](https://dl.acm.org/doi/10.1145/2413176.2413189)  [CoNEXT 12]
+
+| Year | Method                                                       | Detail                           |
+| ---- | ------------------------------------------------------------ | -------------------------------- |
+| 21   | [Fugu](https://www.usenix.org/system/files/nsdi20-paper-yan.pdf)  [NSDI 21] |                                  |
+| 20   | [OnRL](https://dl.acm.org/doi/10.1145/3372224.3419186)  [Mobicom 20] | Online RL                        |
+| 20   | [Stick](https://godka.github.io/Infocom_20_Stick.pdf)  [Infocom 20] | Buffer-based+Learning-based      |
+| 19   | [Comyco](https://arxiv.org/pdf/1908.02270)  [MM 19], [Concerto](https://dl.acm.org/doi/10.1145/3300061.3345430)  [Mobicom 19] | Imitation Learning               |
+| 19   | [PiTree](https://zilimeng.com/papers/pitree-mm19.pdf)  [MM 19] | Explainable Learning             |
+| 17   | [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf)  [Sigcomm 17] | Reinforcement Learning           |
+| 16   | [BOLA](https://arxiv.org/pdf/1601.06748.pdf)  [Infocom 16]   | Rate-based+Lyapunov Optimization |
+| 15   | [MPC](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf)  [Sigcomm 15] | MPC                              |
+| 14   | [Buffer-Based](https://web.stanford.edu/class/cs244/papers/sigcomm2014-video.pdf)  [Sigcomm 14] | Buffer-Based                     |
+| 12   | [Rate-Based](https://dl.acm.org/doi/10.1145/2413176.2413189)  [CoNEXT 12] | Rate-Based                       |
 
 ## Super Resolution in Video Streaming
 
@@ -42,6 +56,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices](https://dl.acm.org/doi/10.1145/3372224.3419185) [Mobicom 20]
 + [Streaming 360-Degree Videos Using Super-Resolution](https://ieeexplore.ieee.org/document/9155477) [Infocom 20] [[code]](https://github.com/VideoForage/Video-Super-Resolution)
 + [SR360: Boosting 360-Degree Video Streaming with Super-Resolution](https://dl.acm.org/doi/abs/10.1145/3386290.3396929) [Nossdav 20]
++ [Improving Quality of Experience by Adaptive Video Streaming with Super-Resolution](https://ieeexplore.ieee.org/document/9155384) [Infocom 20]
 + [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) [OSDI 18] [NAS] [[code]](https://github.com/kaist-ina/NAS_public)
 
 ## Live Video Streaming
@@ -71,7 +86,25 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 
 ## 360-degree video
 
+*3-DOF*
+
 see [360-degree video papers](https://github.com/jinyucn/Video-Streaming-Research-Papers/blob/main/360-degree%20video%20papers.md)
+
+## Volumetric Video
+
+*6-DOF, point cloud*
+
++ [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663)  [HotMobile 21]
++ [GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos](https://juheonyi.github.io/files/GROOT.pdf)  [Mobicom 20]
++ [ViVo: Visibility-Aware Mobile Volumetric Video Streaming](https://www-users.cs.umn.edu/~fengqian/paper/vivo_mobicom20.pdf)  [Mobicom 20]
++ [Towards Viewport-dependent 6DoF 360 Video Tiled Streaming for Virtual Reality Systems](https://dl.acm.org/doi/10.1145/3394171.3413712)  [MM 20]
++ [User Centered Adaptive Streaming of Dynamic Point Clouds with Low Complexity Tiling](https://ir.cwi.nl/pub/30378/30378.pdf)  [MM 20]
++ [A Pipeline for Multiparty Volumetric Video Conferencing: Transmission of Point Clouds over Low Latency DASH](https://repository.tudelft.nl/islandora/object/uuid:4a0178a3-971b-491a-b856-014d091f188e/datastream/OBJ/download)  [MMsys 20]
++ [Cloud Rendering-based Volumetric Video Streaming System for Mixed Reality Services](https://arxiv.org/pdf/2003.02526)  [MMsys 20]
++ [Low-latency Cloud-based Volumetric Video Streaming Using Head Motion Prediction](https://arxiv.org/pdf/2001.06466)  [NOSSDAV 20]
++ [Emerging MPEG Standards for Point Cloud Compression](https://ir.cwi.nl/pub/29040/Emerging-MPEG-Standards-for-Point-Cloud-Compression.pdf)  [TCSVT 19]
++ [Rate-Utility Optimized Streaming of Volumetric Media for Augmented Reality](https://arxiv.org/pdf/1804.09864) [arxiv 18]
++ [Design, Implementation, and Evaluation of a Point Cloud Codec for Tele-Immersive Video](https://core.ac.uk/download/pdf/206494004.pdf)  [TCSVT 17]
 
 ## Virtual Reality
 
