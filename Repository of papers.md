@@ -43,3 +43,73 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [Streaming 360-Degree Videos Using Super-Resolution](https://ieeexplore.ieee.org/document/9155477) [Infocom 20] [[code]](https://github.com/VideoForage/Video-Super-Resolution)
 + [SR360: Boosting 360-Degree Video Streaming with Super-Resolution](https://dl.acm.org/doi/abs/10.1145/3386290.3396929) [Nossdav 20]
 + [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) [OSDI 18] [NAS] [[code]](https://github.com/kaist-ina/NAS_public)
+
+## Live Video Streaming
+
+*Some articles may be repeated.*
+
++ [Look Ahead at the First-mile in Livecast with Crowdsourced Highlight Prediction](https://www2.cs.sfu.ca/~jcliu/Papers/LookAhead20.pdf) [Infocom 20]
++ [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
++ [MultiLive: Adaptive Bitrate Control for Low-delay Multi-party Interactive Live Streaming](http://www.ece.sunysb.edu/~xwang/public/paper/MultiLive.pdf) [Infocom 20]
+
++ [Vabis: Video Adaptation Bitrate System for Time-Critical Live Streaming](https://jackkosaian.github.io/files/papers/sigcomm2019vantage.pdf) [TMM 20]
++ [Optimizing Social Welfare of Live Video Streaming Services in Mobile Edge Computing](https://ieeexplore.ieee.org/document/8653413) [TMC 20]
++ [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19] [DeepCast]
+
++ [Vantage: Optimizing video upload for time-shifted viewing of social live stream](https://jackkosaian.github.io/files/papers/sigcomm2019vantage.pdf) [Sigcomm 19]
++ [Edge-based Transcoding for Adaptive Live Video Streaming](https://www.usenix.org/conference/hotedge19/presentation/dogga) [HotEdge 19]
++ [Characterizing User Behaviors in Mobile Personal Livecast: Towards an Edge Computing-assisted Paradigm](https://dl.acm.org/doi/10.1145/3219751) [ToMM 18]
++ [Cloud-Assisted Crowdsourced Livecast](https://dl.acm.org/doi/10.1145/3095755) [ToMM 17]
++ [Coping With Heterogeneous Video Contributors and Viewers in Crowdsourced Live Streaming: A Cloud-Based Approach](https://www2.cs.sfu.ca/~jcliu/Papers/HeterogeneousVideo.pdf) [TMM 16]
++ [When Crowd Meets Big Video Data: Cloud-Edge Collaborative Transcoding for Personal Livecast](https://ieeexplore.ieee.org/document/8478387) [TNSE 15]
+
+19 MM Grand Challenge:
+
++ [A Hybrid Control Scheme for Adaptive Live Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356049)
++ [HD3: Distributed Dueling DQN with Discrete-Continuous Hybrid Action Spaces for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356052)
++ [Continuous Bitrate & Latency Control with Deep Reinforcement Learning for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356063)
++ [BitLat: Bitrate-adaptivity and Latency-awareness Algorithm for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356069)
++ [Latency Aware Adaptive Video Streaming using Ensemble Deep Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3343031.3356071)
+
+## 360-degree video
+
+see [360-degree video papers]()
+
+## Virtual Reality
+
+Virtual reality papers research how to render in low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server.  
+
++ [Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile](https://dl.acm.org/doi/abs/10.1145/3373376.3378516) [ASPLOS 20]
++ [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/conference/atc20/presentation/liu-xing) [ATC 20]
++ [Mobile VR on Edge Cloud: A Latency-Driven Design](https://dl.acm.org/doi/10.1145/3304109.3306217) [MMsys 19]
++ [MUVR: Supporting Multi-User Mobile Virtual Reality with Resource Constrained Edge Cloud](https://ieeexplore.ieee.org/document/8567653/) [Egde Computing 18]
++ [Furion: Engineering High-Quality Immersive Virtual Reality on Today’s Mobile Devices](http://www.cse.psu.edu/~gxc27/teach/597/Furion.pdf) [Mobicom 17]
+
+## Augmented Reality
+
+Papers about augmented reality deals with the inference of video analysis.
+
++ [Cuttlefish: Neural Configuration Adaptation for Video Analysis in Live Augmented Reality]() [TPDS 21]
+
++ [Edge Assisted Real-time Object Detection for Mobile Augmented Reality](http://www.winlab.rutgers.edu/~luyang/papers/mobicom19_augmented_reality.pdf) [Mobicom 19]
+
+## Video Analysis
+
++ [PECAM: Privacy-Enhanced Video Streaming and Analytics via Securely-Reversible Transformation](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf) [Mobicom 21]
+
++ [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://arxiv.org/abs/2012.10557) [arxiv 20]
++ [Decomposable Intelligence on Cloud-Edge IoT Framework for Live Video Analytics](https://ieeexplore.ieee.org/document/9099311/) [IOTJ 20]
++ [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](http://web.cs.ucla.edu/~ravi/publications/reducto_sigcomm20.pdf) [Sigcom 20]
++ [Server-Driven Video Streaming for Deep Learning Inference](https://people.cs.uchicago.edu/~junchenj/docs/DDS-Sigcomm20.pdf) [Sigcom 20]
++ [SPINN: Synergistic Progressive Inference of Neural Networks over Device and Clouds](https://arxiv.org/abs/2008.06402) [Mobicom 20]
++ [Chameleon: Scalable adaptation of video analytics](https://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady_faceblurred.pdf) [Sigcomm 18]
++ [Noscope: Optimizing neural network queries over video at scale](https://www.vldb.org/pvldb/vol10/p1586-kang.pdf) [VLDB 17]
++ [Live video analytics at scale with approximation and delay-tolerance](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang) [NSDI 17]
+
+model training system:
+
++ [Optimus: an efficient dynamic resource scheduler for deep learning clusters](https://i.cs.hku.hk/~cwu/papers/yhpeng-eurosys18.pdf) [EuroSys 18]
++ [Learning without forgetting](https://arxiv.org/abs/1606.09282) [ECCV 16]
++ [Scalable Bayesian Optimization Using Deep Neural Networks](https://arxiv.org/abs/1502.05700) [ICML 15]
++ [Practical bayesian optimization of machine learning algorithms](https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf) [NeuIPS 12]
+
