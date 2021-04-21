@@ -96,9 +96,6 @@ Papers about augmented reality deals with the inference of video analysis.
 + [PECAM: Privacy-Enhanced Video Streaming and Analytics via Securely-Reversible Transformation](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf) [Mobicom 21]
 
 + [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://arxiv.org/abs/2012.10557) [arxiv 20]
-+ [Decomposable Intelligence on Cloud-Edge IoT Framework for Live Video Analytics](https://ieeexplore.ieee.org/document/9099311/) [IOTJ 20]
-+ [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](http://web.cs.ucla.edu/~ravi/publications/reducto_sigcomm20.pdf) [Sigcom 20]
-+ [Server-Driven Video Streaming for Deep Learning Inference](https://people.cs.uchicago.edu/~junchenj/docs/DDS-Sigcomm20.pdf) [Sigcom 20]
 
 model training system:
 
