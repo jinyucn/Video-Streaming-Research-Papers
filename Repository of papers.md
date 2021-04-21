@@ -75,7 +75,7 @@ see [360-degree video papers](https://github.com/jinyucn/Video-Streaming-Researc
 
 ## Virtual Reality
 
-Virtual reality papers research how to render in low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server.  
+Virtual reality papers research how to render with low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server.  
 
 + [Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile](https://dl.acm.org/doi/abs/10.1145/3373376.3378516) [ASPLOS 20]
 + [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/conference/atc20/presentation/liu-xing) [ATC 20]
