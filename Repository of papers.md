@@ -46,8 +46,6 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 
 ## Live Video Streaming
 
-*Some articles may be repeated.*
-
 + [Look Ahead at the First-mile in Livecast with Crowdsourced Highlight Prediction](https://www2.cs.sfu.ca/~jcliu/Papers/LookAhead20.pdf) [Infocom 20]
 + [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
 + [MultiLive: Adaptive Bitrate Control for Low-delay Multi-party Interactive Live Streaming](http://www.ece.sunysb.edu/~xwang/public/paper/MultiLive.pdf) [Infocom 20]
@@ -62,35 +60,6 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [Cloud-Assisted Crowdsourced Livecast](https://dl.acm.org/doi/10.1145/3095755) [ToMM 17]
 + [Coping With Heterogeneous Video Contributors and Viewers in Crowdsourced Live Streaming: A Cloud-Based Approach](https://www2.cs.sfu.ca/~jcliu/Papers/HeterogeneousVideo.pdf) [TMM 16]
 + [When Crowd Meets Big Video Data: Cloud-Edge Collaborative Transcoding for Personal Livecast](https://ieeexplore.ieee.org/document/8478387) [TNSE 15]
-
-19 MM Grand Challenge:
-
-+ [A Hybrid Control Scheme for Adaptive Live Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356049)
-+ [HD3: Distributed Dueling DQN with Discrete-Continuous Hybrid Action Spaces for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356052)
-+ [Continuous Bitrate & Latency Control with Deep Reinforcement Learning for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356063)
-+ [BitLat: Bitrate-adaptivity and Latency-awareness Algorithm for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356069)
-+ [Latency Aware Adaptive Video Streaming using Ensemble Deep Reinforcement Learning](
-
-## Live Video Streaming
-
-*Some articles may be repeated.*
-
-+ [Look Ahead at the First-mile in Livecast with Crowdsourced Highlight Prediction](https://www2.cs.sfu.ca/~jcliu/Papers/LookAhead20.pdf) [Infocom 20]
-+ [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
-+ [MultiLive: Adaptive Bitrate Control for Low-delay Multi-party Interactive Live Streaming](http://www.ece.sunysb.edu/~xwang/public/paper/MultiLive.pdf) [Infocom 20]
-
-+ [Vabis: Video Adaptation Bitrate System for Time-Critical Live Streaming](https://jackkosaian.github.io/files/papers/sigcomm2019vantage.pdf) [TMM 20]
-+ [Optimizing Social Welfare of Live Video Streaming Services in Mobile Edge Computing](https://ieeexplore.ieee.org/document/8653413) [TMC 20]
-+ [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19] [DeepCast]
-
-+ [Vantage: Optimizing video upload for time-shifted viewing of social live stream](https://jackkosaian.github.io/files/papers/sigcomm2019vantage.pdf) [Sigcomm 19]
-+ [Edge-based Transcoding for Adaptive Live Video Streaming](https://www.usenix.org/conference/hotedge19/presentation/dogga) [HotEdge 19]
-+ [Characterizing User Behaviors in Mobile Personal Livecast: Towards an Edge Computing-assisted Paradigm](https://dl.acm.org/doi/10.1145/3219751) [ToMM 18]
-+ [Cloud-Assisted Crowdsourced Livecast](https://dl.acm.org/doi/10.1145/3095755) [ToMM 17]
-+ [Coping With Heterogeneous Video Contributors and Viewers in Crowdsourced Live Streaming: A Cloud-Based Approach](https://www2.cs.sfu.ca/~jcliu/Papers/HeterogeneousVideo.pdf) [TMM 16]
-+ [When Crowd Meets Big Video Data: Cloud-Edge Collaborative Transcoding for Personal Livecast](https://ieeexplore.ieee.org/document/8478387) [TNSE 15]
-
-19 MM Grand Challenge:
 
 + [A Hybrid Control Scheme for Adaptive Live Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356049)
 + [HD3: Distributed Dueling DQN with Discrete-Continuous Hybrid Action Spaces for Live Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3343031.3356052)
