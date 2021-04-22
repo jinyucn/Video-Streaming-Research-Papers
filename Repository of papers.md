@@ -146,3 +146,5 @@ model training system:
 + [Scalable Bayesian Optimization Using Deep Neural Networks](https://arxiv.org/abs/1502.05700) [ICML 15]
 + [Practical bayesian optimization of machine learning algorithms](https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf) [NeuIPS 12]
 
+Limited by the author's knowledge, some papers may be missed.
+
