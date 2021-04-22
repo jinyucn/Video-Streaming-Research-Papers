@@ -25,6 +25,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19] [DeepCast]
 + [QFlow: A Reinforcement Learning Approach to High QoE Video Streaming over Wireless Networks](https://arxiv.org/abs/1901.00959) [Mobihoc 19]
 + [Edge Computing Assisted Adaptive Mobile Video Streaming](https://ieeexplore.ieee.org/document/8395060) [TMC 19]
++ [Oboe: Auto-tuning Video ABR Algorithms to Network Conditions](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf)  [Sigcomm 18]
 + [HotDASH: Hotspot Aware Adaptive Video Streaming using Deep Reinforcement Learning](https://ieeexplore.ieee.org/iel7/8526479/8526788/08526814.pdf) [ICNP 18] [[code]](https://github.com/SatadalSengupta/hotdash)
 + [QARC: Video Quality Aware Rate Control for Real-Time Video Streaming via Deep Reinforcement Learning](https://arxiv.org/abs/1805.02482) [MM 18]
 + [Ensemble Adaptive Streaming – A New Paradigm to Generate Streaming Algorithms via Specializations](https://ieeexplore.ieee.org/document/8681142) [TMC 18]
@@ -43,6 +44,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 | 20   | [Stick](https://godka.github.io/Infocom_20_Stick.pdf)  [Infocom 20] | Buffer-based+Learning-based        |
 | 19   | [Comyco](https://arxiv.org/pdf/1908.02270)  [MM 19], [Concerto](https://dl.acm.org/doi/10.1145/3300061.3345430)  [Mobicom 19] | Imitation Learning                 |
 | 19   | [PiTree](https://zilimeng.com/papers/pitree-mm19.pdf)  [MM 19] | Explainable Learning               |
+| 18   | [Oboe](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf)  [Sigcomm 18] | Auto-tuning parameters             |
 | 17   | [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf)  [Sigcomm 17] | Reinforcement Learning             |
 | 16   | [BOLA](https://arxiv.org/pdf/1601.06748.pdf)  [Infocom 16]   | Buffer-Based+Lyapunov Optimization |
 | 15   | [MPC](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf)  [Sigcomm 15] | MPC                                |
