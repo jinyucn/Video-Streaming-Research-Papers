@@ -1,6 +1,6 @@
 # paper reading
 
-This is a document of my weekly paper reading from April, 2021.
+This is a document recording some papers I read every week from April, 2021.
 
 ## keyword
 
