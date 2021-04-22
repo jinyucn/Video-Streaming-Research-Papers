@@ -99,6 +99,7 @@ see [360-degree video papers](https://github.com/jinyucn/Video-Streaming-Researc
 + [ViVo: Visibility-Aware Mobile Volumetric Video Streaming](https://www-users.cs.umn.edu/~fengqian/paper/vivo_mobicom20.pdf)  [Mobicom 20]
 + [Towards Viewport-dependent 6DoF 360 Video Tiled Streaming for Virtual Reality Systems](https://dl.acm.org/doi/10.1145/3394171.3413712)  [MM 20]
 + [User Centered Adaptive Streaming of Dynamic Point Clouds with Low Complexity Tiling](https://ir.cwi.nl/pub/30378/30378.pdf)  [MM 20]
++ [Towards Viewport-dependent 6DoF 360 Video Tiled Streaming for Virtual Reality Systems](https://dl.acm.org/doi/pdf/10.1145/3394171.3413712)  [MM 20]
 + [A Pipeline for Multiparty Volumetric Video Conferencing: Transmission of Point Clouds over Low Latency DASH](https://repository.tudelft.nl/islandora/object/uuid:4a0178a3-971b-491a-b856-014d091f188e/datastream/OBJ/download)  [MMsys 20]
 + [Cloud Rendering-based Volumetric Video Streaming System for Mixed Reality Services](https://arxiv.org/pdf/2003.02526)  [MMsys 20]
 + [Low-latency Cloud-based Volumetric Video Streaming Using Head Motion Prediction](https://arxiv.org/pdf/2001.06466)  [NOSSDAV 20]
@@ -112,9 +113,11 @@ Virtual reality papers research how to render with low latency in edge/cloud arc
 
 + [Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile](https://dl.acm.org/doi/abs/10.1145/3373376.3378516) [ASPLOS 20]
 + [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/conference/atc20/presentation/liu-xing) [ATC 20]
-+ [Mobile VR on Edge Cloud: A Latency-Driven Design](https://dl.acm.org/doi/10.1145/3304109.3306217) [MMsys 19]
++ [Mobile VR on Edge Cloud: A Latency-Driven Design](https://dl.acm.org/doi/10.1145/3304109.3306217) [MMSys 19]
 + [MUVR: Supporting Multi-User Mobile Virtual Reality with Resource Constrained Edge Cloud](https://ieeexplore.ieee.org/document/8567653/) [Egde Computing 18]
++ [Cutting the Cord: Designing a High-quality Untethered VR System with Low Latency Remote Rendering](https://dl.acm.org/doi/10.1145/3210240.3210313)  [MobiSys 18]
 + [Furion: Engineering High-Quality Immersive Virtual Reality on Today’s Mobile Devices](http://www.cse.psu.edu/~gxc27/teach/597/Furion.pdf) [Mobicom 17]
++ [CloudVR: Cloud Accelerated Interactive Mobile Virtual Reality](https://dl.acm.org/doi/pdf/10.1145/3240508.3240620)  [MM 17]
 
 ## Augmented Reality
 
