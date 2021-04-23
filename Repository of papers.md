@@ -30,6 +30,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [QARC: Video Quality Aware Rate Control for Real-Time Video Streaming via Deep Reinforcement Learning](https://arxiv.org/abs/1805.02482) [MM 18]
 + [Ensemble Adaptive Streaming – A New Paradigm to Generate Streaming Algorithms via Specializations](https://ieeexplore.ieee.org/document/8681142) [TMC 18]
 + [Neural Adaptive Video Streaming with Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf) [Sigcomm 17] [[code]](https://github.com/hongzimao/pensieve)
++ [CS2P: Improving video bitrate selection and adaptation with data-driven throughput prediction](https://cs.cmu.edu/~junchenj/cs2p.pdf)  [Sigcomm 16]
 + [BOLA: Near-optimal bitrate adaptation for online videos](https://arxiv.org/pdf/1601.06748.pdf) [Infocom 16]
 + [mDASH: A Markov Decision-Based Rate Adaptation Approach for Dynamic HTTP Streaming](https://ieeexplore.ieee.org/iel7/6046/4456689/07393865.pdf) [TMM 16]
 + [A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf) [Sigcomm 15] [MPC]
@@ -37,19 +38,20 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [A Control-Theoretic Approach to Rate Adaption for DASH Over Multiple Content Distribution Servers](https://ieeexplore.ieee.org/document/6662391) [TCSVT 14]
 + [Improving fairness, efficiency, and stability in HTTP-based adaptive video streaming with FESTIVE](https://dl.acm.org/doi/10.1145/2413176.2413189)  [CoNEXT 12]
 
-| Year | Method                                                       | Detail                             |
-| ---- | ------------------------------------------------------------ | ---------------------------------- |
-| 21   | [Fugu](https://www.usenix.org/system/files/nsdi20-paper-yan.pdf)  [NSDI 21] |                                    |
-| 20   | [OnRL](https://dl.acm.org/doi/10.1145/3372224.3419186)  [Mobicom 20] | Online RL                          |
-| 20   | [Stick](https://godka.github.io/Infocom_20_Stick.pdf)  [Infocom 20] | Buffer-based+Learning-based        |
-| 19   | [Comyco](https://arxiv.org/pdf/1908.02270)  [MM 19], [Concerto](https://dl.acm.org/doi/10.1145/3300061.3345430)  [Mobicom 19] | Imitation Learning                 |
-| 19   | [PiTree](https://zilimeng.com/papers/pitree-mm19.pdf)  [MM 19] | Explainable Learning               |
-| 18   | [Oboe](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf)  [Sigcomm 18] | Auto-tuning parameters             |
-| 17   | [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf)  [Sigcomm 17] | Reinforcement Learning             |
-| 16   | [BOLA](https://arxiv.org/pdf/1601.06748.pdf)  [Infocom 16]   | Buffer-Based+Lyapunov Optimization |
-| 15   | [MPC](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf)  [Sigcomm 15] | MPC                                |
-| 14   | [Buffer-Based](https://web.stanford.edu/class/cs244/papers/sigcomm2014-video.pdf)  [Sigcomm 14] | Buffer-Based                       |
-| 12   | [Rate-Based](https://dl.acm.org/doi/10.1145/2413176.2413189)  [CoNEXT 12] | Rate-Based                         |
+| Year | Method                                                       | Detail                                  |
+| ---- | ------------------------------------------------------------ | --------------------------------------- |
+| 21   | [Fugu](https://www.usenix.org/system/files/nsdi20-paper-yan.pdf)  [NSDI 21] | DNN (bandwidth prediction)+DP (control) |
+| 20   | [OnRL](https://dl.acm.org/doi/10.1145/3372224.3419186)  [Mobicom 20] | Online RL                               |
+| 20   | [Stick](https://godka.github.io/Infocom_20_Stick.pdf)  [Infocom 20] | Buffer-based+Learning-based             |
+| 19   | [Comyco](https://arxiv.org/pdf/1908.02270)  [MM 19], [Concerto](https://dl.acm.org/doi/10.1145/3300061.3345430)  [Mobicom 19] | Imitation Learning                      |
+| 19   | [PiTree](https://zilimeng.com/papers/pitree-mm19.pdf)  [MM 19] | Explainable Learning                    |
+| 18   | [Oboe](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf)  [Sigcomm 18] | Auto-tuning parameters                  |
+| 17   | [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf)  [Sigcomm 17] | Reinforcement Learning                  |
+| 16   | [CS2P](https://cs.cmu.edu/~junchenj/cs2p.pdf)  [Sigcomm 16]  |                                         |
+| 16   | [BOLA](https://arxiv.org/pdf/1601.06748.pdf)  [Infocom 16]   | Buffer-Based+Lyapunov Optimization      |
+| 15   | [MPC](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf)  [Sigcomm 15] | MPC                                     |
+| 14   | [Buffer-Based](https://web.stanford.edu/class/cs244/papers/sigcomm2014-video.pdf)  [Sigcomm 14] | Buffer-Based                            |
+| 12   | [Rate-Based](https://dl.acm.org/doi/10.1145/2413176.2413189)  [CoNEXT 12] | Rate-Based                              |
 
 ## Super Resolution in Video Streaming
 
