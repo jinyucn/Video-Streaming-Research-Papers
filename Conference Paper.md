@@ -1,5 +1,19 @@
 # 21
 
+## NSDI
+
++ [Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo](https://www.usenix.org/conference/nsdi21/presentation/xu)
+
+Le Xu, *University of Illinois at Urbana-Champaign;* Shivaram Venkataraman, *UW-Madison;* Indranil Gupta, *University of Illinois at Urbana-Champaign;* Luo Mai, *University of Edinburgh;* Rahul Potharaju, *Microsoft*
+
++ [Whiz: Data-Driven Analytics Execution](https://www.usenix.org/conference/nsdi21/presentation/grandl)
+
+Robert Grandl, *Google;* Arjun Singhvi, *University of Wisconsin–Madison;* Raajay Viswanathan, *Uber Technologies Inc.;* Aditya Akella, *University of Wisconsin–Madison*
+
++ [SENSEI: Aligning Video Streaming Quality with Dynamic User Sensitivity](https://www.usenix.org/conference/nsdi21/presentation/zhang-xu)
+
+Xu Zhang and Yiyang Ou, *University of Chicago;* Siddhartha Sen, *Microsoft Research;* Junchen Jiang, *University of Chicago*
+
 ## Mobicom
 
 + [PECAM: Privacy-Enhanced Video Streaming & Analytics via Securely-Recoverable Transformation](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf)

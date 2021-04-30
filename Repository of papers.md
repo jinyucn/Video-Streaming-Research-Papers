@@ -12,6 +12,8 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 
 ## Video Streaming
 
++ [SENSEI: Aligning Video Streaming Quality with Dynamic User Sensitivity](https://www.usenix.org/system/files/nsdi21-zhang.pdf)  [NSDI 21]
+
 + [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/system/files/nsdi20-paper-yan.pdf) [NSDI 20] [[code]](https://github.com/stanfordsnr/puffer)
 + [OnRL: Improving Mobile Video Telephony via Online Reinforcement Learning](https://dl.acm.org/doi/10.1145/3372224.3419186) [Mobicom 20]
 + [GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos](https://juheonyi.github.io/files/GROOT.pdf) [Mobicom 20]
@@ -46,7 +48,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 | 19   | [Comyco](https://arxiv.org/pdf/1908.02270)  [MM 19], [Concerto](https://dl.acm.org/doi/10.1145/3300061.3345430)  [Mobicom 19] | Imitation Learning                      |
 | 19   | [PiTree](https://zilimeng.com/papers/pitree-mm19.pdf)  [MM 19] | Explainable Learning                    |
 | 18   | [Oboe](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf)  [Sigcomm 18] | Auto-tuning parameters                  |
-| 17   | [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf)  [Sigcomm 17] | Reinforcement Learning                  |
+| 17   | [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf)  [Sigcomm 17] [Update](https://openreview.net/pdf?id=SJlCkwN8iV) [ICML 19] | Reinforcement Learning                  |
 | 16   | [CS2P](https://cs.cmu.edu/~junchenj/cs2p.pdf)  [Sigcomm 16]  |                                         |
 | 16   | [BOLA](https://arxiv.org/pdf/1601.06748.pdf)  [Infocom 16]   | Buffer-Based+Lyapunov Optimization      |
 | 15   | [MPC](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p325.pdf)  [Sigcomm 15] | MPC                                     |
@@ -132,6 +134,9 @@ Papers about augmented reality deals with the inference of video analysis.
 + [Edge Assisted Real-time Object Detection for Mobile Augmented Reality](http://www.winlab.rutgers.edu/~luyang/papers/mobicom19_augmented_reality.pdf) [Mobicom 19]
 
 ## Video Analysis
+
++ [Whiz: Data-Driven Analytics Execution](https://www.usenix.org/system/files/nsdi21-grandl.pdf)  [NSDI 21]
++ [Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo](https://www.usenix.org/system/files/nsdi21-xu.pdf)  [NSDI 21]
 
 + [PECAM: Privacy-Enhanced Video Streaming and Analytics via Securely-Reversible Transformation](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf) [Mobicom 21]
 + [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://arxiv.org/abs/2012.10557) [arxiv 20]
