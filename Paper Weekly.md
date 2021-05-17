@@ -14,7 +14,7 @@ This is a document recording some papers I read every week from April, 2021.
 
 同时，作者考虑到buffer-bound某段时间可以保持恒定。因此，设计一个Trigger算法，输入是带宽、缓存总大小和当前缓存，输出是使用当前缓存上限的概率，表示是否要激活DRL输出新的上限，节省资源。
 
-![19Infocom_stick](asserts\19Infocom_stick.PNG)
+![19Infocom_stick](asserts/19Infocom_stick.PNG)
 
 + **SenSei: Aligning Video Streaming Quality with Dynamic User Sensitivity**
 
