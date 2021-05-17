@@ -8,7 +8,39 @@ This is a document recording some papers I read every week from April, 2021.
 
 ## papers
 
-+ Learning in situ: a randomized experiment in video streaming
++ **Stick: A Harmonious Fusion of Buffer-based and Learning-based Approach for Adaptive Streaming**
+
+这篇文章的ABR是使用buffer-based算法。但是作者提出一个问题：在不同带宽、视频情形下，BB的buffer-bound应该具体去设置。因此，作者使用了一个DRL模型（DDPG）来决定buffer-bound大小。
+
+同时，作者考虑到buffer-bound某段时间可以保持恒定。因此，设计一个Trigger算法，输入是带宽、缓存总大小和当前缓存，输出是使用当前缓存上限的概率，表示是否要激活DRL输出新的上限，节省资源。
+
+![19Infocom_stick](.\asserts\19Infocom_stick.PNG)
+
++ **SenSei: Aligning Video Streaming Quality with Dynamic User Sensitivity**
+
+21 NSDI University of Chicago
+
+这篇文章讲的是同一个视频不同chunk用户的sensitivity是不一样的，比如足球比赛中射门时，用户对质量和卡顿要求更高，因为对应的QoE权重也更高。总体思想跟19ICNP的Hotdash一致。这里在不同chunk中加入卡顿，然后在Amazon MTurk 平台上请人观看打分，进一步拟合不同chunk的权重。
+
++ **Rubiks: Practical 360-Degree Streaming for Smartphones**
+
+18 MobiSys UT Austin #video_system
+
+作者在手机实现了360度视频系统并进行优化。优化包括：编码上，作者划分tile和划分layer（SVC）。传输优化上，作者建立QoE，考虑解码时间，变量为每个tile码率、layer的数目。求解采用搜索方式。
+
+作者在安卓上进行实现，也是本文的亮点。
+
++ **Favor: Fine-Grained Video Rate Adaptation**
+
+18 MMSys UT Austin #abr
+
+这篇文章除了考虑传统的问题设置外，还增加了frame dropping和playout rate。frame dropping可以降低帧率，减小视频大小。playout rate可以减缓播放时间，避免卡顿。因此需要对QoE做优化。
+
+在方法上，作者采用了类似MPC的方法，并利用贪心算法做分配。
+
+作者基于VLC实现，客户端基于HTTP。
+
++ **Learning in situ: a randomized experiment in video streaming**
 
 19 NSDI Stanford University [website](https://puffer.stanford.edu)  #abr
 
