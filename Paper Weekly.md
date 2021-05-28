@@ -4,9 +4,43 @@ This is a document recording some papers I read every week from April, 2021.
 
 ## keyword
 
-#abr #video_system #live
+#abr #video_system #live #VR #360 #viewport_prediction
 
 ## papers
+
++ **PARIMA: Viewport Adaptive 360-Degree Video Streaming**
+
+21 WWW Indian Institute of Technology Kharagpur, India   #viewport_prediction
+
+这篇论文做的主要是viewport prediction。作者提出了用prime objects和user trajectories来预测。本文创新点主要在于提取出object的高层特征。
+
+预测上，作者先用ARIMIA模型预测出观看轨迹，然后用Passive-Aggressive Regression model融合不同特征。
+
+不过基于objects的思想跟[这篇](https://dl.acm.org/doi/10.1145/3328914)比较像。
+
++ **SphericRTC: A System for Content-Adaptive Real-Time 360-Degree Video Communication**
+
+20 MM SUNY Binghamton #360
+
+这篇文章有点像在codec上面优化，然后结合到WebRTC中。作者在优化方面，主要是确定per-pixel magnification，像素点离viewpoint越近，编码的分辨率越高，则像素点越被放大（我的理解应该是越密集）。
+
+作者基于viewpoint的向量和每个像素点的向量依次计算角度差，然后推导出像素点大小$g$。作者这里更多的是依据视角和给定的分辨率确定每个像素点的大小（密度），网络调整部分应该是依赖webtrc本身。
+
++ **Firefly: Untethered Multi-user VR for Commodity Mobile Devices**
+
+20 ATC University of Minnesota, Twin Cities #VR
+
+这篇文章讲VR的渲染。优化的技术有：offline content preparation（提前将background在服务器端渲染和编码好）、viewport-adaptive streaming（划分tile，预测用户的viewport背景并下载）、adaptive content quality control（在多用户场景下，分配有限的带宽资源）。作者分析该系统能支持15个用户和60FPS帧率。
+
+![20ATC_Firefly1](asserts/20ATC_Firefly1.PNG)
+
+1. offline rendering engine: 作者在水平方向上将帧划分为多个tile，并备好多个质量版本，提前渲染和编码好，存储在数据库中等待下载。
+2. viewport prediction: 这里的坐标有translational movement (x,y,z)和rotational movement (yaw, pitch)。作者训练前50ms的线性模型来预测未来150ms的。这里的时间粒度是毫秒级的。同时，作者采用扩大FoV，用户静止时增加tile数量等策略。（防止静止后突然移动）
+3. Adaptive Quality Control. 作者提出一个简单的算法给多用户分配带宽资源，确定各tile下载的质量。
+4. Client-Side Hierarchical Cache. 作者在客户端实现多级缓存，L1存储已解码的tile，L2和L3存储待解码的tile，L2的速度更快，存储更紧急的tile。
+5. Handling Dynamic Foreground Objects. 跟其他工作一样，作者在客户端渲染小的object。同时，作者依据客户端的资源决定渲染的质量。
+
+作者在安卓实现了该系统。
 
 + **Stick: A Harmonious Fusion of Buffer-based and Learning-based Approach for Adaptive Streaming**
 

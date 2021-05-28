@@ -117,6 +117,8 @@ see [360-degree video papers](https://github.com/jinyucn/Video-Streaming-Researc
 
 Virtual reality papers research how to render with low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server.  
 
++ [Q-VR: System-Level Design for Future Mobile Collaborative Virtual Reality](https://arxiv.org/ftp/arxiv/papers/2102/2102.13191.pdf)  [ASPLOS 21]
+
 + [Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile](https://dl.acm.org/doi/abs/10.1145/3373376.3378516) [ASPLOS 20]
 + [Firefly: Untethered Multi-user VR for Commodity Mobile Devices](https://www.usenix.org/conference/atc20/presentation/liu-xing) [ATC 20]
 + [Mobile VR on Edge Cloud: A Latency-Driven Design](https://dl.acm.org/doi/10.1145/3304109.3306217) [MMSys 19]
@@ -124,6 +126,8 @@ Virtual reality papers research how to render with low latency in edge/cloud arc
 + [Cutting the Cord: Designing a High-quality Untethered VR System with Low Latency Remote Rendering](https://dl.acm.org/doi/10.1145/3210240.3210313)  [MobiSys 18]
 + [Furion: Engineering High-Quality Immersive Virtual Reality on Today’s Mobile Devices](http://www.cse.psu.edu/~gxc27/teach/597/Furion.pdf) [Mobicom 17]
 + [CloudVR: Cloud Accelerated Interactive Mobile Virtual Reality](https://dl.acm.org/doi/pdf/10.1145/3240508.3240620)  [MM 17]
++ [Enabling High-Quality Untethered Virtual Reality](https://cs.uwaterloo.ca/~oabari/Papers/NSDI17.pdf) [NSDI 17]
++ [FlashBack: Immersive Virtual Reality on Mobile Devices via Rendering Memoization](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/flashback_mobisys2016.pdf) [MobiSys 16]
 
 ## Augmented Reality
 

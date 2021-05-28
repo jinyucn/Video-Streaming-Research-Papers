@@ -2,8 +2,8 @@ Back to [Repository of papers](https://github.com/jinyucn/Video-Streaming-Resear
 
 ## Video Transmission
 
++ [Popularity-Aware 360-Degree Video Streaming](http://mcn.cse.psu.edu/paper/xianda/infocom-xianda21.pdf)  [Infocom 21]
 + [Robust 360° Video Streaming via Non-Linear Sampling](https://www.cs.purdue.edu/cgvlab/papers/popescu/2021InfoCommCOREPopescu.pdf)  [Infocom 21] 
-+ [PARIMA: Viewport Adaptive 360-Degree Video Streaming](https://arxiv.org/pdf/2103.00981) [WWW 21]
 + [AdaP-360: User-Adaptive Area-of-Focus Projections for Bandwidth-Efficient 360-Degree Video Streaming](http://www.cs.binghamton.edu/~yaoliu/publications/mm20-adap360.pdf) [MM 20]
 + [QuRate: Power-Efficient Mobile Immersive Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3339825.3391863) [MMsys 20]
 + [Deja View: Spatio-Temporal Compute Reuse for Energy-Efficient 360° VR Video Streaming](https://ieeexplore.ieee.org/document/9138937/)  [ISCA 20]
@@ -30,6 +30,7 @@ Back to [Repository of papers](https://github.com/jinyucn/Video-Streaming-Resear
 + [A Measurement Study of YouTube 360° Live Video Streaming](https://zyan.gsucreate.org/papers/360measure_nossdav19.pdf)  [NOSSDAV 19]
 + [Event-driven Stitching for Tile-based Live 360 Video Streaming](https://zyan.gsucreate.org/papers/livetexture_mmsys19.pdf)  [MMsys 19]
 + [RATS: Adaptive 360-degree Live Streaming](https://dl.acm.org/doi/10.1145/3304109.3323837)  [MMsys 19]
++ [LIME: Understanding Commercial 360° Live Video Streaming Services](https://bohan00.github.io/share/LIME_MMSys19.pdf)  [MMSys 19]
 
 ## System
 
@@ -46,6 +47,8 @@ Back to [Repository of papers](https://github.com/jinyucn/Video-Streaming-Resear
 
 ## Viewport Prediction
 
++ [Graph Learning Based Head Movement Predictionfor Interactive 360 Video Streaming](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9416230)  [TIP 21]
++ [PARIMA: Viewport Adaptive 360-Degree Video Streaming](https://arxiv.org/pdf/2103.00981) [WWW 21]
 + [LiveDeep: Online Viewport Prediction for Live Virtual Reality Streaming Using Lifelong Deep Learning](http://ieeexplore.ieee.org/document/9089486/)  [VR 20]
 + [Viewport Prediction for 360° Videos: A Clustering Approach](https://dl.acm.org/doi/pdf/10.1145/3386290.3396934)  [NOSSDAV 20]
 + [A Spherical Convolution Approach for Learning Long Term Viewport Prediction in 360 Immersive Video](https://aaai.org/ojs/index.php/AAAI/article/view/7377/7241)  [AAAI 20]
