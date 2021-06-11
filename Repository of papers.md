@@ -77,6 +77,7 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 + [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19] [DeepCast]
 + [Vantage: Optimizing video upload for time-shifted viewing of social live stream](https://jackkosaian.github.io/files/papers/sigcomm2019vantage.pdf) [Sigcomm 19]
 + [Edge-based Transcoding for Adaptive Live Video Streaming](https://www.usenix.org/conference/hotedge19/presentation/dogga) [HotEdge 19]
++ [QARC: Video Quality Aware Rate Control for Real-Time Video Streaming based on Deep Reinforcement Learning](https://dl.acm.org/doi/abs/10.1145/3240508.3240545) [MM 18]
 + [Characterizing User Behaviors in Mobile Personal Livecast: Towards an Edge Computing-assisted Paradigm](https://dl.acm.org/doi/10.1145/3219751) [ToMM 18]
 + [Cloud-Assisted Crowdsourced Livecast](https://dl.acm.org/doi/10.1145/3095755) [ToMM 17]
 + [Coping With Heterogeneous Video Contributors and Viewers in Crowdsourced Live Streaming: A Cloud-Based Approach](https://www2.cs.sfu.ca/~jcliu/Papers/HeterogeneousVideo.pdf) [TMM 16]

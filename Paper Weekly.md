@@ -8,6 +8,18 @@ This is a document recording some papers I read every week from April, 2021.
 
 ## papers
 
++ **Popularity-Aware 360-Degree Video Streaming**
+
+21 Infocom The Pennsylvania State University  #360
+
+这篇文章的贡献在于macrotiles。传统的360 streaming会把视频分割成多个tile，每个tile单独编码，但是这样会使得tile之间无法进行运动补偿编码，影响编码性能。因此，作者提出将用户集中观看的区域（ROI）单独编码，其他依然采用tile编码。这样ROI可以单独编码为高质量，且画面较大可以使用帧间补偿，提高编码效率。
+
+作者首先formulate一个QoE maximization问题，用多重背包证明为NP-hard。
+
+然后，作者提出聚类方法来获取ROI区域，这块区域可单独编码。
+
+针对当前用户，作者首先预测viewport，然后看是否有覆盖它的ROI，如果有，该ROI在带宽约束下尽可能下载最高码率，其他区域下载最低码率。否则，跟传统的tile方法一样，设计一个简单的方法分配viewport和其他区域的码率。
+
 + **PARIMA: Viewport Adaptive 360-Degree Video Streaming**
 
 21 WWW Indian Institute of Technology Kharagpur, India   #viewport_prediction
