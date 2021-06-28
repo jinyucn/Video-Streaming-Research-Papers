@@ -58,11 +58,16 @@ Other relevant conference also include **NSDI, OSDI, MobiSys, SOSP, ISCA,** etc.
 ## Super Resolution in Video Streaming
 
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663) [HotMobile 21]
++ [SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices](https://ubicomplab.cs.washington.edu/pdfs/splitsr.pdf)  [IMWUT 21]
 + [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
 + [NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices](https://dl.acm.org/doi/10.1145/3372224.3419185) [Mobicom 20]
 + [Streaming 360-Degree Videos Using Super-Resolution](https://ieeexplore.ieee.org/document/9155477) [Infocom 20] [[code]](https://github.com/VideoForage/Video-Super-Resolution)
 + [SR360: Boosting 360-Degree Video Streaming with Super-Resolution](https://dl.acm.org/doi/abs/10.1145/3386290.3396929) [Nossdav 20]
 + [Improving Quality of Experience by Adaptive Video Streaming with Super-Resolution](https://ieeexplore.ieee.org/document/9155384) [Infocom 20]
++ [Supremo: Cloud-Assisted Low-Latency Super-Resolution in Mobile Devices](https://arxiv.org/pdf/1908.07985)  [TMC 20]
++ [MobiSR: Effcient OnDevice Super-Resolution through Heterogeneous Mobile Processors](https://arxiv.org/pdf/1908.07985)  [Mobicom 19]
++ [Dejavu: Enhancing Videoconferencing with Prior Knowledge](http://panhu.me/pdf/2019/Dejavu.pdf)  [HotMobile 19]
++ [Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics](https://www.usenix.org/system/files/hotcloud19-paper-wang.pdf)  [HotCloud 19]
 + [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) [OSDI 18] [NAS] [[code]](https://github.com/kaist-ina/NAS_public)
 
 ## Live Video Streaming

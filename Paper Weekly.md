@@ -4,9 +4,51 @@ This is a document recording some papers I read every week from April, 2021.
 
 ## keyword
 
-#abr #video_system #live #VR #360 #viewport_prediction
+#abr #video_system #live #VR #360 #viewport_prediction #video_analysis
 
 ## papers
+
++ **Enabling Edge-Cloud Video Analytics for Robotics Applications**
+
+21 Infocomm HKUST #video_analysis
+
+这篇讲的是SR在video analysis的应用，解决Robotics Applications中poor tail accuracy的问题。作者把该问题分为两类：class-wise tail accuracy：在某些灯光、场景下，accuracy对resolution有较高要求。frame-wise tail accuracy：某些帧不好检测。
+
+作者设计了两个模块，ASR：利用SR在server端增强画质。CAC：类似于码率控制。
+
+![21ASSR_1](asserts/21ASSR_1.PNG)
+
+CAC按我的理解跟下面的文章有点像。检测tail frame：当物体的size小于1%的frame size时，则认为比较难检测，此时应该提高分辨率。码率的设置采用推断的方式。通过多次尝试找到能够实现高准确率的configurations。
+
++ **Server-Driven Video Streaming for Deep Learning Inference**
+
+20 Sigcomm University of Chicago  #video_analysis
+
+这篇文章做的是视频分析（object detection/segmentation）网络。作者采用的是camera (client)-server架构，camera上传视频给server端采用DNN模型进行inference。本文的创新在于把上传过程分为两个阶段，(1)上传low quality视频，这样可以给服务端做初步推断，同时给出feedback指导后续上传；(2)上传high-quality视频，提高检测的accuracy。这里的feedback是指第一步检测出的部分bounding boxes需要重新上传高质量视频做进一步检测和确认。相比于传统的客户端（精度低、耗时）或服务器优化（耗带宽），两步优化的目的是减小带宽。
+
+![20sigcomm_dds](asserts/20sigcomm_dds.PNG)
+
+以上图为例，左上是之前帧检测的objects，左下是低质量帧检测的结果。作者提出两个方法移除掉不必要重传：(1)和原先检测结果有30%以上重叠；(2)超过视频帧大小4%的物体（如果物体足够大则低质量也能检测出）。然后将剩余的bounding boxes作为feedback传回camera，重传高质量视频。
+
++ **DeepVista: 16K Panoramic Cinema on Your Mobile Device**
+
+21 WWW University of Minnesota  #360
+
+这篇介绍的是利用edge对全景视频进行转码、获取viewport和分发，跟传统的tile-based思路不太一样。
+
+视频分为两种形式，PS：最低质量，整帧直接从服务器下载，持续提供画面；VS：viewport-adaptive，服务器传送高质量视频(16K)到edge，edge解码后进行转码，encode后传送给client，性能瓶颈为edge到client的带宽。
+
+文章主要在讲edge的工作。首先把16K的帧分解为两个8K*8K的帧，然后在edge用两个GPU进行解码（并行减小时间）。然后用LSTM预测viewport（预测长度较小、文章依据这些待转码的帧有个公式计算）。作者用CumeMap投影，然后将一帧分割blocks，依据坐标选取出视野内对应的blocks，reorganize出一个总的viewport。然后作者建立QoE采用枚举法选出对应的quality level。（这里有个小疑问，作者说要决定PS和VS的level，但是好像没看到PS的，以及两者对带宽的竞争）这篇文章比较好的地方是做了系统实现。
+
++ **Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE**
+
+20 Infocom Simon Fraser University  
+
+在传统的基于CDN-viewers架构中，作者引入了edge server来帮助转码和分发，因此需要调度某个channel某个quality version是由CDN分发还是edge。首先要建立优化目标，包括QoE（延迟、channel转换的）、转码损耗和带宽的损耗，决策是每个用户u是否在CDN/edge获取频道为h版本为v的视频。
+
+作者采用A3C求解，状态依次资源、用户、需求。动作为哪个server/CDN服务用户，然后server会选择对应的h和v最大化reward。（这里有点不太明白是不是要多一个算法求解，还是直接输出两个决策）
+
+本文的亮点在于引入edge及其对应的优化。
 
 + **Popularity-Aware 360-Degree Video Streaming**
 
